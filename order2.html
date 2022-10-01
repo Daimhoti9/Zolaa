@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body class="b1 " >
+
+  <table width="900"  align="center">
+    <tbody>
+       <tr>
+         <td>
+
+    <table width="100%">
+            </td>
+         </tr>
+    </tbody>
+    
+    <a href="./tiramisu.html">Main Menu</a>
+
+ 
+
+    <p>
+        <form method="GET">
+        
+        <strong> Order down below
+       </strong></p>
+       
+      
+
+       <fieldset class=" b2">
+       <legend>Contact Details</legend>
+       <p>
+        <label>Email:
+        <input type="text" name="email" required/><br></label>
+        <label>Mobile:
+          <input type="tel" name="mob"  required="" pattern="\d{9}" required/><br></p>
+        </fieldset>
+       
+       <fieldset class="  b2">
+       
+             
+         <legend > Order </legend>
+         <!-- Porosit -->
+          
+         <p>
+              <figcaption>
+              <img  class="image" src="./assets/tiramisu order.jpg" alt="1"  height="150" />
+              <p>Homemade Tiramisu</p>
+             </p>
+           </figcaption>
+         
+             
+              <p> What type of packaging:
+               <input type="radio" name="genre" value="Paper" required
+               /> Paper
+               <input type="radio" name="genre" value="Plastic" required/> Plastic     
+              <input type="radio" name="genre" value="Glass" required/> Glass
+            </p>
+             
+             <p>
+                <label for="Size">Size </label>
+               <select name="Size" id="Size" required>
+               <option value="L" required>Large <br> </option>
+               <option value="M" required>Medium <br></option>
+              <option value="S" required>Small <br></option><br>
+              </p>
+              
+       
+         
+        
+       
+    
+       
+       
+         <legend>Payment</legend>
+         
+         <strong>Wich way of payment would you like to use?</strong><br><br>
+            <label for="Payment">Payment</label>
+            <select name="Payment" id="Payment">
+            <option value="paypal" required >Paypal</option>
+            <option value="mastercard" required>Master Card</option>
+            <option value="visacard" required>Visa Card</option>
+           
+           </select>
+       
+          
+         
+       
+       
+       </fieldset><br>
+        
+       
+         <button type="submit">Place Order</button>
+       
+       
+       
+       
+       
+       <h3 class="b1">Location<br><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.923067436125!2d13.506456915508906!3d52.498632179810116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84f2e6a350655%3A0x49e7c93ebe0861da!2sBalatonstra%C3%9Fe%201A%2C%2010319%20Berlin!5e0!3m2!1sen!2sde!4v1664299500312!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </h3>
+       <br><br>
+      
+       </form>
+
+
+</body>
+</html>
